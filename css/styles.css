@@ -48,6 +48,11 @@ body {
 	display: none;
 }
 
+.navigation li.threeline-icon:hover {
+	color: #f27609;
+	cursor: pointer;
+}
+
 .capa{
 	color: white;
 }
@@ -288,7 +293,7 @@ body {
 	line-height: 30px;
 }
 
-.no-break {
+.main a {
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
@@ -311,6 +316,25 @@ body {
 .blackbox {
 	opacity: 0.8;
 } 
+
+.menujs {
+	height: auto;
+}
+
+.menujs ul {
+	height: auto;
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.menujs li {
+	display: block;
+	border-bottom: solid gray 1px;
+	width: 100%;
+	padding: 0;
+}
+
 
 
 }
